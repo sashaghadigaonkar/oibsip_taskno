@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.btn-primary{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid brown !important;
+    color: brown !important; 
+    background: none !important;
+}
+
+.btn-primary:hover{
+    background: brown !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.row{
+    padding: 60px;
+}
+
+.title{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+}
+
+.py-4{
+    list-style-type: none;
+    text-align: center;
+}
+
+#award{
+    padding: 40px 0;
+    color: brown;
+}
+
+.title::after{ 
+    content: '';
+    background: brown;
+    height: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block !important;
+    border-radius: 50px;
+    transform: translateY(2px);
+}
+
+.title2::after{
+    content: '';
+    background: brown;
+    height: 5px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block !important;
+    border-radius: 50px;
+    transform: translateY(2px);
+}
+
+.homi{
+    text-transform: uppercase;
+}
+
+.sasha{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(orange,white,green) !important;
+}
+img {
+    border-radius: 200px !important;
+ }
